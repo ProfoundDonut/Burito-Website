@@ -7,15 +7,65 @@ body {
 }
 h1, h2, h3 {
   font-family: 'quicksand';
+  color: #871f1f
 }
 p {
   font-family: 'raleway';
+  margin-left:15%;
+  margin-right: 15%;
 }
 /* Block Level Elements */
 #header {
-  padding-top: 50vh;
-  padding-bottom: 37vh;
+  padding-top: 40vh;
+  padding-bottom: 42vh;
   background-image: url("image_assets/bg1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  font-size: 22px;
+  color:#871f1f;
+}
+#content {
+  padding-bottom: 2.5%;
+}
+#break {
+  background-image:url("image_assets/bg2.jpg");
+  height: 300px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#content2 {
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+#button1 {
+  border: solid 2px #871f1f;
+  padding-top:0.5%;
+  padding-bottom: 0.5%;
+  padding-left: 1%;
+  padding-right: 1%;
+  font-size: 20px;
+  background-color: transparent;
+  color:#871f1f;
+  transition:0.4s;
+  cursor: pointer;
+}
+#button2 {
+  border: solid 2px #871f1f;
+  padding-top:0.5%;
+  padding-bottom: 0.5%;
+  padding-left: 1%;
+  padding-right: 1%;
+  font-size: 20px;
+  background-color: #871f1f;
+  color:white;
+  transition:0.4s;
+  cursor: pointer;
+}
+#button1:hover {
+  background-color: #871f1f;
+  color:white;
+}
+#button2:hover {
+  background-color:transparent;
+  color: #871f1f;
 }
